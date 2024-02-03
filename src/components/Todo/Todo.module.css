@@ -1,0 +1,47 @@
+.form {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.form form {
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.form form:last-child {
+    border-bottom: none;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.des {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.actions h5:first-child {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.actions h5:first-child:hover {
+    color: rgba(255, 0, 0, 0.623);
+}
+
+.actions h5:last-child {
+    color:rgb(0, 255, 0);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.actions h5:last-child:hover {
+    color: rgba(0, 255, 0, 0.6);
+}
